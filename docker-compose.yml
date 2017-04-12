@@ -1,0 +1,6 @@
+meow:
+    image: scavin/meow
+    volumes:
+        - $PWD/:/root/.meow
+    ports:
+        - "7777:7777"
