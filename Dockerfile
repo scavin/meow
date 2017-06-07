@@ -1,4 +1,5 @@
-FROM alpine:3.4
+FROM alpine:latest
+
 ENV MEOW_INSTALLDIR=/meow
 
 RUN mkdir /meow && \
